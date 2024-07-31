@@ -13,6 +13,7 @@ public class Alien {
 	}
 	private int aid;
 	private String aname;
+	private String acourse;
 	@Autowired
 	@Qualifier("l1")
 	private Laptop laptop;
